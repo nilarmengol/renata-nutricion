@@ -16,7 +16,8 @@ body {
   padding: 25px 10px;
   color: tomato;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .topnav a.logo {
@@ -35,4 +36,63 @@ body {
 .topnav a.active {
   background-color: #4caf50;
   color: white;
+}
+
+.grid.two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.column {
+  padding: 50px;
+}
+
+.background {
+  background-image: url("../images/renata_scassi.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+h2 {
+  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #aeb8b8;
+  letter-spacing: 4px;
+  line-height: 1.2em;
+  font-size: 26px;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+h6 {
+  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: #737a7a !important;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.3em;
+  padding-bottom: 10px;
+  color: #333;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+h1 u {
+  color: tomato;
+}
+
+.highlight {
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
