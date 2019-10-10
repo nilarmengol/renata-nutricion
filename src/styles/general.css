@@ -43,6 +43,51 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid.four {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid.four div {
+  height: auto;
+  padding: 40px;
+  color: #ffffff;
+}
+.grid.four div i {
+  font-size: 70px;
+  position: relative;
+  left: 90px;
+}
+
+.grid.four div.red {
+  background-color: #ff5733;
+}
+.grid.four div.red1 {
+  background-color: #ff6c4d;
+}
+.grid.four div.red2 {
+  background-color: #ff8166;
+}
+.grid.four div.red3 {
+  background-color: #ff9680;
+}
+
+.grid.four div p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 1.8em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.grid.four div h3 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
 .grid.three {
   display: grid;
   border: 2px dashed rgba(114, 186, 94, 0.35);
@@ -81,7 +126,7 @@ body {
   height: auto;
 }
 
-h2 {
+h2.title {
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -161,4 +206,15 @@ button {
   border: 0px;
   padding: 10px;
   font-size: 1.3em;
+}
+
+h2.question {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #333;
+  line-height: 1em;
+  line-height: 1.5em;
+  padding: 20px 100px;
 }
