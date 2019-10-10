@@ -218,3 +218,36 @@ h2.question {
   line-height: 1.5em;
   padding: 20px 100px;
 }
+
+p.text {
+  margin: 80px;
+  color: rgb(102, 102, 102);
+
+  font: normal normal 500 normal 20px / 36px Lato, Helvetica, Arial, Lucida,
+    sans-serif;
+  margin: 0px;
+  padding: 0px 0px 20px;
+}
+.pad {
+  padding: 0px 50px;
+}
+
+.grid.double {
+  display: grid;
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+  height: 600px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  background: rgba(114, 186, 94, 0.05);
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.examples {
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 213, 70, 0.4);
+  border: 2px dashed rgba(236, 198, 48, 0.5);
+  text-align: center;
+}

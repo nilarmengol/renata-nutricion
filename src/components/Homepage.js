@@ -125,6 +125,40 @@ class Homepage extends React.Component {
             </p>
           </div>
         </div>
+        <h2 className="question">
+          «Busco un plan que me ayude a ponerme en forma y perder grasa en pocas
+          semanas, ¿este servicio me puede ayudar?»
+        </h2>
+        <div className="pad">
+          <p className="text">
+            Está demostrado que
+            <strong>
+              una planificación de entrenamiento + dieta es mucho más efectiva
+              para la pérdida de grasa y eliminar la celulitis
+            </strong>
+            o cualquier objetivo físico que optar únicamente por realizar solo
+            ejercicio sin una programación adecuada o seguir temporalmente una
+            dieta sin tener en cuenta tu composición corporal, (dietas milagro,
+            Herbalife, etc) pasando hambre y sin tener en cuenta el efecto
+            rebote que estas siempre generan al hacer que disminuya tu
+            metabolismo y por lo tanto vuelvas a aumentar de peso a medio plazo.
+            Lógicamente se pueden conseguir resultados y siempre va a ser mejor
+            realizar ejercicio que llevar una vida sedentaria, pero si lo que
+            buscas es un objetivo y conseguir resultados en menos tiempo, ¡la
+            combinación de ambas es la mejor opción para ti! Eso sumado al
+            <strong>
+              {" "}
+              asesoramiento, control de tu evolución y motivación{" "}
+            </strong>
+            que te pueden proporcionar alguien con experiencia en asesoramiento
+            físico, hace que las probabilidades de conseguir resultados aumenten
+            forma considerable.
+          </p>
+        </div>
+        <div className="grid double">
+          <div className="examples"></div>
+          <div className="examples"></div>
+        </div>
       </body>
     );
   }
