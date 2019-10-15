@@ -1,0 +1,21 @@
+button {
+  background-color: tomato;
+  padding-left: 10px;
+  position: relative;
+  left: 50px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 7px;
+  border: 0px;
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+button.white {
+  background-color: white;
+
+  color: tomato;
+  position: relative;
+  left: 450px;
+  padding: 20px;
+}

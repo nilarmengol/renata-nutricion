@@ -1,0 +1,111 @@
+.grid.two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid.four {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid.four div {
+  height: auto;
+  padding: 40px;
+  color: #ffffff;
+}
+.grid.four div i {
+  font-size: 70px;
+  position: relative;
+  left: 90px;
+}
+
+.grid.four div.red {
+  background-color: #ff5733;
+}
+.grid.four div.red1 {
+  background-color: #ff6c4d;
+}
+.grid.four div.red2 {
+  background-color: #ff8166;
+}
+.grid.four div.red3 {
+  background-color: #ff9680;
+}
+
+.grid.four div p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 1.8em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.grid.four div h3 {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.grid.three {
+  display: grid;
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+  height: 600px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  background: rgba(114, 186, 94, 0.05);
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.grid.panel {
+  display: grid;
+  height: 650px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px auto;
+  background: wgite;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.grid.double {
+  display: grid;
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+  height: 600px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  background: rgba(114, 186, 94, 0.05);
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.column {
+  display: block;
+}
+
+.column.background {
+  background-image: url("../images/renata_scassi.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.smallColumn {
+  padding: 30px 40px;
+}
+
+.smallColumn.grey {
+  background-color: #455860;
+  color: #ffffff;
+}
+
+.smallColumn.darkGrey {
+  background-color: #3e5159;
+  color: #ffffff;
+}

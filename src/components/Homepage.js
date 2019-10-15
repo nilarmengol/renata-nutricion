@@ -1,5 +1,10 @@
 import React from "react";
+import "../styles/grid.css";
+import "../styles/nav.css";
 import "../styles/general.css";
+import "../styles/button.css";
+import "../styles/thumbnail.css";
+import "../styles/text.css";
 
 class Homepage extends React.Component {
   render() {
@@ -16,7 +21,7 @@ class Homepage extends React.Component {
           </a>
         </div>
         <div className="grid two medium">
-          <div class="background"></div>
+          <div class="column background"></div>
           <div class="column">
             <div class="description">
               <div>
@@ -133,8 +138,9 @@ class Homepage extends React.Component {
           <p className="text">
             Está demostrado que
             <strong>
+              {" "}
               una planificación de entrenamiento + dieta es mucho más efectiva
-              para la pérdida de grasa y eliminar la celulitis
+              para la pérdida de grasa y eliminar la celulitis{" "}
             </strong>
             o cualquier objetivo físico que optar únicamente por realizar solo
             ejercicio sin una programación adecuada o seguir temporalmente una
@@ -155,9 +161,70 @@ class Homepage extends React.Component {
             forma considerable.
           </p>
         </div>
-        <div className="grid double">
-          <div className="examples"></div>
-          <div className="examples"></div>
+        <div className="tomato">
+          <div className="grid double">
+            <div className="examples"></div>
+            <div className="examples"></div>
+          </div>
+        </div>{" "}
+        <div className="pad red">
+          <h2 className="subtitle">
+            <i>
+              «Busco un plan que me ayude a ponerme en forma y perder grasa en
+              pocas semanas, ¿este servicio me puede ayudar?»
+            </i>
+          </h2>
+
+          <p className="text center">
+            Aunque también realizo el servicio de entrenamiento para hombres, lo
+            que más recibo son solicitudes de mujeres de todas las edades que
+            quieren recibir un programa para
+            <strong> la pérdida de grasa y eliminación de celulitis </strong>,
+            así como de tonificación muscular. También clientas quieren
+            recuperar la forma después del<strong> embarazo</strong>, y mujeres
+            que durante el embarazo quieren mantenerse activas desde casa. Yo
+            también he sido mamá y mantener la forma y realizar actividad física
+            durante este periodo es imprescindible para recuperarlo más rápido
+            tras el parto. También si necesitas perder peso y llegar bien a esa
+            ocasión especial como<strong>tu boda</strong> o la de una amiga, o
+            estar mejor durante las vacaciones, un plan de entrenamiento
+            personalizado específico te ayudará a conseguir los resultados que
+            deseas conseguir en menos tiempo.
+          </p>
+          <div className="cta">
+            Explícame tu objetivo y logremos tu objetivo juntas
+          </div>
+          <button type="button" className="white">
+            Contacta hoy conmigo!
+          </button>
+        </div>
+        <div className="grid panel">
+          <h2 className="panel">Empieza hoy!</h2>
+          <div className="program">
+            <h3 className="panel">Plan Entrenamiento Personal de 90 Días</h3>
+            <span className="panel">175€</span>
+            <p className="panel">
+              Mi programa incluye durante 3 meses incluye para cualquier
+              objetivo:
+            </p>
+            <ul className="panel">
+              <li>
+                Rutinas de entrenamiento personalizadas para cada semana con
+                pesas y/o peso corporal para realizar en casa, al aire libre o
+                en el gym
+              </li>
+              <li>Seguimiento, control y registro de medidas</li>
+              <li>
+                Análisis fotográfico semanal/quincenal para ayudar a realizar un
+                seguimiento de tu progreso
+              </li>
+              <li>
+                Asesoramiento personal por chat y correo electrónico ilimitado
+                para preguntas y solventar dudas
+              </li>
+            </ul>
+            <button type="button">Contratar plan de entrenamiento</button>
+          </div>
         </div>
       </body>
     );

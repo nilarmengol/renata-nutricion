@@ -1,0 +1,161 @@
+h2.title {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #aeb8b8;
+  letter-spacing: 4px;
+  line-height: 1.2em;
+  font-size: 26px;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.description {
+  padding: 50px;
+  height: auto;
+}
+h6 {
+  font-weight: 700;
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: #737a7a;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.3em;
+  color: #333;
+  margin: 0px;
+}
+
+h1 u {
+  color: tomato;
+}
+
+.highlight {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-weight: 700 !important;
+  line-height: 1.5em !important;
+  font-size: 20px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+h2.question {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #333;
+  line-height: 1em;
+  line-height: 1.5em;
+  padding: 20px 100px;
+}
+h2.panel {
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #333;
+  line-height: 1em;
+  line-height: 1.5em;
+  padding: 20px 100px 0px;
+  margin-bottom: 0px;
+}
+
+p.text {
+  margin: 80px;
+  color: rgb(102, 102, 102);
+
+  font: normal normal 500 normal 20px / 36px sans-serif;
+  margin: 0px;
+  padding: 0px 0px 20px;
+}
+
+p.text.center {
+  margin: 0px 80px 80px 80px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px 80px;
+}
+h2.subtitle {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.5em;
+  margin-top: 0px;
+  padding: 0px 100px;
+  margin-bottom: 10px;
+}
+
+.cta {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  line-height: 1.5em;
+  margin-top: 30px;
+  padding: 0px 100px;
+  margin-bottom: 10px;
+}
+
+h3.panel {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #333;
+  line-height: 1.5em;
+  padding: 20px 100px 0px;
+  margin: 0px;
+}
+span.panel {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5em;
+  padding: 20px 100px 0px;
+  color: tomato;
+  margin-bottom: 0px;
+}
+
+p.panel {
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: rgb(102, 102, 102);
+  line-height: 1.5em;
+
+  padding: 20px 10px;
+  margin: 0px;
+  text-align: left;
+}
+
+ul.panel {
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: rgb(102, 102, 102);
+  line-height: 1.5em;
+
+  padding: 20px 10px;
+  margin: 0px;
+  text-align: left;
+}
